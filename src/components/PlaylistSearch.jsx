@@ -12,10 +12,7 @@ export default function PlaylistSearch() {
       <IconButton color="#FFFFFF">
         <Search />
       </IconButton>
-      <Typography
-        variant="body1"
-        sx={{ pl: 2, color: "#FFFFFF", fontSize: "2em" }}
-      >
+      <Typography variant="body1" sx={{ color: "#FFFFFF", fontSize: "2em" }}>
         最近追加・再生した順
       </Typography>
     </Box>

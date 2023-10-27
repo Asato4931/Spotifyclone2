@@ -1,4 +1,5 @@
 import { Grid, Card, CardContent, Typography, Avatar } from "@mui/material";
+import ButtonBase from "@mui/material/ButtonBase";
 
 import dog2 from "../img/dog2.jpg";
 
@@ -33,6 +34,7 @@ export default function AlbumGrid() {
               height: "100%",
               backgroundColor: "transparent",
               borderRadius: "10px",
+              transition: "background-color 0.3s",
             }}
           >
             <Avatar
